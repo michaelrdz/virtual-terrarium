@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+* {
+     margin: 0;
+     padding: 0;
+}
+a {
+	text-decoration: none;
+	color: #3a241d;
+}
+a:hover {
+	color: peru
+}
+body {
+    font-family: 'Lobster Two', cursive;
+}
+
+h1 {
+	color: #3a241d;
+	text-align: center;
+    font-size: 40pt;
+}
+
+h2 {
+	color: #3a241d;
+	text-align: center;
+    font-size: 18pt;
+    margin-top: 12px;
+}
+h3 {
+    color: #3a241d;
+	text-align: center;
+    font-size: 14pt;
+    margin-top: 12px;
+}
+
+#left-container {
+	left: 0px;
+	
+}
+
+#right-container {
+	right: 0px;
+}
+
+.container {
+    position: absolute;
+	height: 100vh;
+    background-color: #eee;
+	width: 15%;
+    top: 0px;
+    background-image: url(../images/bg_plants.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.plant-holder {
+	position: relative;
+	height: 13%;
+	left: -10px;
+}
+
+.plant {
+	position: absolute;
+	max-width: 150%;
+	max-height: 150%;
+	z-index: 2;
+}
+
+.jar-top {
+    position: absolute;
+	height: 15%;
+	width: 30%;
+    bottom: 60%;
+	left: 35%;
+    border-radius: 1rem;
+    background-image: url(../images/bg_corcho.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jar-glass-top {
+    position: absolute;
+	height: 5%;
+	width: 30%;
+    bottom: 66%;
+	left: 35%;
+    background: #d1e1df;
+    opacity: 0.5;
+}
+.jar-walls {
+    position: absolute;
+	height: 62%;
+	width: 40%;
+    bottom: 4%;
+	left: 30%;
+    border-radius: 6rem;
+    background: #d1e1df;
+    opacity: 0.5;
+	z-index: 1;
+}
+.dirt {
+	width: 40%;
+	height: 12%;
+	background: #3a241d;
+    background-image: url(../images/bg_tierra.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+	position: absolute;
+	border-radius: 0 0 6rem 6rem;
+	bottom: 4%;
+	left: 30%;
+	opacity: 0.7;
+	z-index: -1;
+}
+.jar-glossy-long {
+    position: absolute;
+	height: 22%;
+	width: 3%;
+    bottom: 20%;
+	left: 5%;
+    border-radius: 2rem;
+    background: #ddfbff;
+    opacity: 0.9;
+	z-index: 99;
+}
+.jar-glossy-short {
+	width: 3%;
+	height: 5%;
+	border-radius: 2rem;
+	background: #ddfbff;
+	position: absolute;
+	bottom: 45%;
+	left: 5%;
+}
+
+#SCI_kids {
+    position: absolute;
+    bottom: 4%;
+	left: 41%;
+    z-index: -1;
+}
+#SCI_kids img {
+    width: 340px;
+}
